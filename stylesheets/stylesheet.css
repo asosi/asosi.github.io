@@ -69,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 36px;
   font-weight: 700;
+  display:inline-block
 }
 
 h2 {
@@ -135,11 +136,10 @@ strong {
 
 img {
   position: relative;
-  margin: 0 auto;
   max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
+  padding: 0px;
+  margin-left: 30px;
+  /*border: 1px solid #ebebeb;*/
 
   /*box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb; 
@@ -149,7 +149,7 @@ img {
 }
 
 p img {
-  display: inline;
+  display: inline-block;
   margin: 0;
   padding: 0;
   vertical-align: middle;
@@ -421,3 +421,11 @@ Small Device Styles
   }
 
 }
+
+.circular {
+  width: 100px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(http://link-to-your/image.jpg) no-repeat;
+  }
